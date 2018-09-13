@@ -48,3 +48,9 @@ sudo make
 sudo make install
 # 更新动态链接库
 sudo ldconfig
+
+#add 
+sudo su
+echo 'snd-bcm2835' >>/etc/modules
+echo 'bcm2835-v4l2' >>/etc/modules
+su pi 
